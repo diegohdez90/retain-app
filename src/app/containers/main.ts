@@ -3,10 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'main-container',
   template: `
-    <div>
-      <main class="main">
-        content will go here
-      </main>
+    <div class="main-container">
+        <app-bar></app-bar>
+        <main class="main">
+            content will go here
+        </main>
     </div>
   `
 })
